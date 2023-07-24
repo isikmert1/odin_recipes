@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
     <title>Recipe Page</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="https://media2.giphy.com/media/A5ugHVbuFL3uo/giphy.gif?cid=ecf05e47393b2wxdnt59h4659i7y1d837jr1k6idhmz5c00i&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Homer Simpson Cooking">
-    <ul>
-        <li><a href="recipes/kebab.html" target="_blank">Kebab</a></li>
-        <li><a href="recipes/dolma.html" target="_blank">Dolma</a></li>
-        <li><a href="recipes/baklava.html" target="_blank">Baklava</a></li>
-    </ul>
+    <div class="header">
+        <h1>Odin Recipes</h1>
+        <img class="header-gif" src="https://media2.giphy.com/media/A5ugHVbuFL3uo/giphy.gif?cid=ecf05e47393b2wxdnt59h4659i7y1d837jr1k6idhmz5c00i&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Homer Simpson Cooking">
+    </div>
+    <div class="container">
+        <div class="item">
+            <a href="recipes/kebab.html" target="_blank">
+                <img src="images/kebab-image.jpg" alt="Kebab">
+            </a>
+            <p>Kebab</p>
+        </div>
+        <div class="item">
+            <a href="recipes/sarma.html" target="_blank">
+                <img src="images/sarma-image.webp" alt="Sarma">
+            </a>
+            <p>Sarma</p>
+        </div>
+        <div class="item">
+            <a href="recipes/baklava.html" target="_blank">
+                <img src="images/baklava-image.jpg" alt="Baklava">
+            </a>
+            <p>Baklava</p>
+        </div>
+    </div>
 </body>
 </html>
